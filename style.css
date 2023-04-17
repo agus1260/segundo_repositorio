@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*inicio*/
+
+.titulos {
+    background-color: beige;
+    height:100px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-inicio :hover{
+    width:fit-content;
+    height:fit-content;
+    border-radius:5px;
+}
+
+
+
+
+
+h1{
+    background-color:cornflowerblue ;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+
+.section-inicio{
+    background-color:cornflowerblue ;
+}
+
+.contenedor-imagen{
+    display:flex;
+    align-items: center;
+}
+
+img{
+    height: 600px;
+    width: 600px;
+}
+
+.imagen-inicio {
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    margin: 50px;
+
+}
+
+.formulario {
+   padding: 50px;
+   display: flex;
+}
+
+
+.footer-text{
+    background-color: beige;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 150px;
+}
+
+.ul-1{
+   line-height: 50px;
+   align-content: space-around;
+}
+
+
+
+
+
+
+
+/*buscar*/
+
+.grid-container{
+    text-align: center;
+    display: grid;
+    grid-gap:10px ;    
+}
+
+.grid-items >* {
+    min-height: 100%;
+    border:black 1px solid;
+    display: grid;
+    grid-template-areas:
+    "header"
+    "nav section"  
+    "section"
+    "nav aside"
+    "footer"
+
+}
+
+
+
+
+.header-buscar{
+    grid-area: header;
+    background-color:beige;
+}
+
+.navbar-buscar{
+    grid-area: navbar;
+    background-color: aqua;
+}
+
+section{
+    grid-area: section-bucar;
+    background-color: rgb(255, 0, 166);
+}
+
+
+.sidebar-buscar{
+    grid: aside;
+    background-color: antiquewhite;
+}
+
+.footer-grids{
+    grid-area:footer;
+    background-color: yellow;
+}
+
+
+    
+        
